@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    android:background="#2d2e38"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Kalkulator"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="#ffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <EditText
+        android:id="@+id/eangka"
+        android:hint="angka 1"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        />
+
+    <EditText
+        android:id="@+id/eangkaa"
+        android:hint="angka 2"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        />
+
+    <Button
+        android:id="@+id/tambah"
+        android:text="+"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/kali"
+        android:text="X"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/kurang"
+        android:text="-"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bagi"
+        android:text=":"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:text="0.0"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        />
+
+
+</LinearLayout>

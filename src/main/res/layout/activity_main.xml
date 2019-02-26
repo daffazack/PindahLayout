@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#2d2e38"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome !!"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="#ffff"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Klik tombol berikut"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="#ffff"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Untuk melanjutkan"
+        android:textSize="28dp"
+        android:layout_gravity="center"
+        android:textColor="#ffff"
+        android:layout_marginTop="-5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_activity_main_pindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Next"
+        android:textSize="25dp"
+        android:onClick="Pindah"
+        android:layout_marginTop="50dp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/arah1"
+
+
+        />
+
+
+
+</LinearLayout>
